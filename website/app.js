@@ -56,7 +56,7 @@ function performAction(e){
         console.log(data);
         // add data to post request
         // console.log(newDate)
-        postData('./add', {date:newDate, temp:data.list[0].main.temp, content:feelings})
+        postData('/add', {date:newDate, temp:data.list[0].main.temp, content:feelings})
         updateUI();
     })
 };
