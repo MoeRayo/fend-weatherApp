@@ -1,0 +1,27 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "npm install and change the port in the server code if the port is already in use at your end.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoeRayo/fend-weatherApp.git"
+  },
+  "author": "Moronfolu Olufunke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoeRayo/fend-weatherApp/issues"
+  },
+  "homepage": "https://github.com/MoeRayo/fend-weatherApp#readme"
+}
